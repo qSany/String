@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         String firstName = "Ivanov";
         String middleName = "Ivan";
         String lastName = "Ivanovich";
@@ -14,6 +15,7 @@ public class Main {
         String fullName1 = "Иванов Семён Семёнович";
         fullName1 = fullName1.replaceAll("ё", "е");
         System.out.println("Данные Ф.И.О. сотрудника - " + fullName1);
+
 
     }
     }
